@@ -1,0 +1,36 @@
+﻿{  
+  "RefreshTime": 60,
+  "TransmissionUrl": "http://torrentbox.lan:9091/transmission/rpc",
+  "TransmissionPort": 9091,
+  "Password": "",
+  "Login": "",
+  "DeleteFromTorrentClient": false,
+  "Jobs": [
+    {
+      "Rules": [
+        {
+          "Id": "d6b0e591-9124-44b9-b288-4b248accf33c",
+          "Regex": ".*?\\[(?<folder>.*?)\\s\\(.*?\\)\\]",
+          "Path": "/{folder}/",
+          "Priority": -1
+        },
+        {
+          "Id": "051169fd-a10b-4da4-bb9b-d704bc34ad4f",
+          "Regex": "(?<title>.*?).S(?<series>\\d+)E(?<episode>\\d+).*?\\[(?<folder>\\w+)\\s\\(.*?\\)\\]",
+          "Path": "/{folder}/{title}/S{series}/",
+          "Priority": 2
+        },
+        {
+          "Id": "d1886fc5-4b9e-46d7-a71f-1ec35729e30d",
+          "Regex": "(?<title>.*?).S(?<series>\\d+).*?\\[(?<folder>\\w+)\\s\\(.*?\\)\\]",
+          "Path": "/{folder}/{title}/",
+          "Priority": 1
+        }
+      ],
+      "Id": "d7eadd0e-9e03-4123-8b01-f7039066b643",
+      "Name": "Sorozatok",
+      "RssUrl": "https://ncore.cc/bookmarks/64e1e907dfa59748d304d337bae6645c0",
+      "DownloadPath": "/downloads/"
+    }
+  ]
+}

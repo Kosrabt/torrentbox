@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorrentBox.Api", "src\TorrentBox.Api\TorrentBox.Api.csproj", "{27F13C0F-C6F2-4F95-939F-8A6B00B24755}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorrentBox.TransmissionClient", "src\TorrentBox.TransmissionClient\TorrentBox.TransmissionClient.csproj", "{7017460B-B630-4672-8657-DE937E43FB39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F13C0F-C6F2-4F95-939F-8A6B00B24755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F13C0F-C6F2-4F95-939F-8A6B00B24755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F13C0F-C6F2-4F95-939F-8A6B00B24755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F13C0F-C6F2-4F95-939F-8A6B00B24755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7017460B-B630-4672-8657-DE937E43FB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7017460B-B630-4672-8657-DE937E43FB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7017460B-B630-4672-8657-DE937E43FB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7017460B-B630-4672-8657-DE937E43FB39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13D9773B-4B84-4D39-BF31-2B890A23F03F}
+	EndGlobalSection
+EndGlobal

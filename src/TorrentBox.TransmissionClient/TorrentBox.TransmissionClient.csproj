@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="Transmission.API.RPC" Version="1.2.0" />
+    <PackageReference Include="Transmission.NetCore.Client" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
